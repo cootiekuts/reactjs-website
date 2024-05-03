@@ -61,6 +61,7 @@
   border-radius: 5px;
   margin: 0;
   text-align: center;
+  position: sticky;
 
 }
 
@@ -72,6 +73,7 @@
   border-radius: 5px;
   margin: 0;
   text-align: center;
+  position: sticky;
 }
 
 .button-style{
@@ -101,5 +103,37 @@
 .list-items li:hover{
   color: hsl(0, 0%, 45%);
   cursor: pointer;
+}
+
+.sidebar {
+  display: inline;
+  background-color: antiquewhite;
+  width:fit-content;
+  align-items: center;
+  height: 100%;
+  position: fixed ;
+  
+}
+
+.sidebar .sidebar-link{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(185, 100%, 50%);
+  text-decoration: none;
+  padding: 10px;
+
+}
+
+.sidebar p{
+  padding: 10px;
+}
+
+.main-container{
+  display:flex
 }
 

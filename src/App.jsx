@@ -7,6 +7,7 @@ import ButtonInlineStyle from './Button/ButtonInlineStyle'
 import Student from './Student/Student'
 import UserGreeting from './UserGreeting/UserGreeting'
 import List from './assets/List/List'
+import Sidebar from './Sidebar'
 
 export default function App() {
   const fruits = [{id:1, name:"apple", calories: 95}, 
@@ -24,6 +25,7 @@ export default function App() {
   return(
     <>
       <UserGreeting isLoggedIn={true} username="knee grow"/>
+      <Sidebar/>
       <Card/>
       <Card/>
       <Card/>
@@ -36,6 +38,7 @@ export default function App() {
       <Card/>
       <Card/>
       <Card/>
+      
       {/* <div classname="button-style">
       <Button/>
       <ButtonExternalStyle/>
